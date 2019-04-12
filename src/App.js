@@ -31,7 +31,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <button onClick={this.handleClick}>Click Me </button>
+          <button onClick={this.onButtonClick}>Click Me </button>
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
