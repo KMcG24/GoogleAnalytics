@@ -1,6 +1,12 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import ReactGA from "react-ga";
+
+function initializeReactGA() {
+  ReactGA.initialize("UA-123791717-1");
+  ReactGA.pageview("/homepage");
+}
 
 class App extends Component {
   render() {
